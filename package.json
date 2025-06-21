@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "dashboard",
   "version": "0.1.0",
   "private": true,
@@ -12,6 +11,7 @@
     "react-dom": "^18.2.0",
     "react-icons": "^5.5.0",
     "react-scripts": "5.0.1",
+    "react-spinners": "^0.17.0",
     "recharts": "^2.6.2",
     "web-vitals": "^2.1.4"
   },
@@ -22,29 +22,15 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "extends": ["react-app", "react-app/jest"]
   },
   "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
+    "production": [">0.2%", "not dead", "not op_mini all"],
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
     ]
-=======
-  "dependencies": {
-    "react-icons": "^5.5.0",
-    "react-scripts": "^5.0.1",
-    "react-spinners": "^0.17.0",
-    "recharts": "^2.15.3"
->>>>>>> 200c606 (Fix: add missing dependencies for Render deployment)
   }
 }
 
